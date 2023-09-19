@@ -1,6 +1,6 @@
 # Constante de Kaprekar
 
-![Entrada del programa](images/tiempoMemoria.png)
+![Tiempo y memoria a consumir máximos](images/tiempoMemoria.png)
 
 El matemático indio Dattaraya Ramchandra Kaprekar descubrió en 1949 una curiosa característica del número 6174. Hoy, se conoce a dicho número como *constante de Kaprekar* en honor a él.
 
@@ -15,7 +15,7 @@ A este proceso se le conoce como la *rutina de Kaprekar*, y siempre llegará al 
 
 Por ejemplo, el número 3524 alcanzará la constante de Kaprekar en 3 iteraciones:
 
-![Entrada del programa](images/ejemplo1.png)
+![Primer ejemplo](images/ejemplo1.png)
 
 Los únicos dígitos de cuatro cifras para los que la rutina de Kaprekar no alcanza el número 6174 son los *repdigits*, es decir aquellos cuyas cuatro cifras son iguales (como 1111), pues en la primera iteración se alcanzará el valor 0 y no podrá salirse de él. Es por esto que en el paso 1 se pedía explícitamente que el número inicial tuviera al menos dos dígitos diferentes.
 
@@ -25,11 +25,11 @@ A continuación se muestran dos ejemplos más:
 
 * El número 1121 necesita 5 iteraciones:
 
-![Entrada del programa](images/ejemplo2.png)
+![Segundo ejemplo](images/ejemplo2.png)
 
 * El número 1893 necesita 7:
 
-![Entrada del programa](images/ejemplo3.png)
+![Tercer ejemplo](images/ejemplo3.png)
 
 ## Entrada
 
